@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Our Products</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #4e8b74;
+      color: #fff3c0;
+    
+    .custom-header {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 100px;
+      background-color: #1b4d3e;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .header-left {
+      display: flex;
+      align-items: center;
+      background: white;
+      padding: 10px 20px;
+      clip-path: polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%);
+      height: 100%;
+    }
+
+    .header-logo {
+      height: 60px;
+      margin-right: 15px;
+    }
+
+    .header-text {
+      text-align: left;
+      color: #1b4d3e;
+    }
+
+    .brand-name {
+      font-size: 1.4em;
+      font-weight: bold;
+    }
+
+    .brand-sub {
+      font-size: 1em;
+      color: #c9a869;
+      font-family: serif;
+    }
+
+    .header-right {
+      flex-grow: 1;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding-right: 40px;
+      background-color: #1b4d3e;
+      height: 100%;
+    }
+
+    .header-right nav a {
+      color: #f8ecc2;
+      text-decoration: none;
+      margin-left: 30px;
+      font-weight: bold;
+      font-size: 1em;
+    }
+
+    .header-right nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* === MAIN LOGO AND TITLE === */
+    .main-logo {
+      margin-top: 40px;
+    }  
+    
+    }
+    .container {
+      padding: 30px;
+    }
+    h1 {
+      text-align: center;
+      color: #ffe19f;
+    }
+    .product {
+      background-color: #4e8b74;
+      border-bottom: 2px solid #b7f1d0;
+      padding: 20px 0;
+    }
+    .product h2 {
+      color: #ffd48b;
+    }
+    .product img {
+      width: 100px;
+      float: left;
+      margin-right: 20px;
+    }
+    .details {
+      overflow: hidden;
+    }
+    .highlight {
+      color: #ffffff;
+      font-weight: bold;
+    }
+    .contact {
+      background-color: #e2c18f;
+      color: #003f2f;
+      padding: 20px;
+      text-align: center;
+    }
+    .contact i {
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+
+
+  <!-- ✅ NEW CUSTOM HEADER -->
+  <header class="custom-header">
+    <div class="header-left">
+      <img src="logo.png" alt="Logo" class="header-logo" />
+      <div class="header-text">
+        <div class="brand-name">COR MAGNA</div>
+        <div class="brand-sub">PHARMACEUTICALS HOLDING INC</div>
+      </div>
+    </div>
+    <div class="header-right">
+      <nav>
+        <a href="index.html" >HOME</a>
+        <a href="indexxx.html"class="active">OUR PRODUCTS</a>
+        <a href="indexx.html" >CONTACT US</a>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+    <h1>OUR PRODUCTS:</h1>
+
+    <div class="product">
+      <img src="paracetamol-removebg-preview (1).png" alt="Paracetamol Elpara">
+      <div class="details">
+        <h2>PARACETAMOL (ELPARA®)</h2>
+        <p><span class="highlight">Elpara</span> is a sterile intravenous formulation containing 500 mg of paracetamol in 50 mL solution (10 mg/mL). It is indicated for the management of mild to moderate pain and reduction of fever, especially in patients unable to take oral medications.</p>
+        <p><span class="highlight">Concentration:</span> 10 mg/mL (500 mg/50 mL)<br>
+        <span class="highlight">Formulation:</span> IV infusion (solution for injection)<br>
+        <span class="highlight">Classification:</span> Analgesic/Antipyretic (Anilide)</p>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="dobutamine-removebg-preview.png" alt="Dobutamine Dobukon">
+      <div class="details">
+        <h2>DOBUTAMINE (DOBUKON®)</h2>
+        <p><span class="highlight">Dobukon</span> is a single-dose intravenous inotropic agent containing 250 mg of Dobutamine Hydrochloride per 5 mL ampoule. It is primarily indicated for the short-term treatment of cardiac decompensation due to depressed contractility, as seen in heart failure or post-cardiac surgery patients.</p>
+        <p><span class="highlight">Concentration:</span> 50 mg/mL (250 mg/5 mL ampoule)<br>
+        <span class="highlight">Formulation:</span> Solution for Injection (IV Infusion)<br>
+        <span class="highlight">Classification:</span> Adrenergic Agent (Sympathomimetic)</p>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="nicardipine-removebg-preview.png" alt="Nicardipine Nicardize">
+      <div class="details">
+        <h2>NICARDIPINE (NICARDIZE®)</h2>
+        <p><span class="highlight">Nicardize</span> is a sterile intravenous formulation, a potent vasodilator belonging to the dihydropyridine class of calcium channel blockers. It is used for the acute management of severe hypertension, including hypertensive emergencies, and is ideal for settings where rapid blood pressure control is critical.</p>
+        <p><span class="highlight">Concentration:</span> 1 mg/mL (10 mg/10 mL)<br>
+        <span class="highlight">Formulation:</span> Solution for Injection (I.V.)<br>
+        <span class="highlight">Classification:</span> Calcium Channel Blocker</p>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="piperacillin-removebg-preview.png" alt="Piperacillin Tazobactam Elpitaz">
+      <div class="details">
+        <h2>PIPERACILLIN+TAZOBACTAM (ELPITAZ®)</h2>
+        <p><span class="highlight">Elpitaz</span> is a broad-spectrum antibiotic combining Piperacillin and the β-lactamase inhibitor Tazobactam, effective against a wide range of resistant Gram-positive, Gram-negative, and anaerobic bacteria. It is indicated for hospital-acquired and ventilator-associated pneumonia, complicated intra-abdominal and urinary tract infections, skin and soft tissue infections, gynecologic infections, febrile neutropenia, and sepsis of unknown origin. Ideal for moderate to severe infections in hospital and ICU settings.</p>
+        <p><span class="highlight">Concentration:</span> 4 g/500 mg<br>
+        <span class="highlight">Formulation:</span> Powder for Injection (IV Infusion)<br>
+        <span class="highlight">Classification:</span> Broad-Spectrum Antibiotic / β-Lactamase Inhibitor</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact">
+    <h3>CONTACT US:</h3>
+    <p><i>📞</i> MOBILE: 0908-5764-733</p>
+    <p><i>📧</i> EMAIL: cormagnapharmaceuticalsinc@gmail.com</p>
+  </div>
+</body>
+</html>
